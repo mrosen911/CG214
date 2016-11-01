@@ -1,0 +1,36 @@
+/*Michael Rosen-CG214-11.1.16*/
+html {background-color: beige}
+
+#house {
+    width: 600px;
+    height: 210px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    border-color: white;
+    border-style: solid}
+
+#invite{
+    font-size: 20px;
+    width: 600px;
+    margin-left: 10px
+}
+
+#points {
+    width: 600px;
+    position: absolute;
+    bottom: 110px;
+    color: darkslateblue;
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border-color: white;
+    border-style: solid
+}
+
+#address {
+    position: absolute;
+    right: 150px;
+    top: 150px;
+}

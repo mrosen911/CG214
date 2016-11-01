@@ -1,0 +1,63 @@
+/*Michael Rosen-CG214-11.1.16*/
+html{
+    background-color: beige}
+
+#container{
+    width: 600px;
+    margin: auto;}
+
+
+#p1 {
+    font-size: 28px; 
+    color: navy;
+    position: absolute;
+    margin-left: 915px
+}
+
+#p2 {font-size: 30px; 
+    color: firebrick; 
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 915px;
+    bottom: 150px}
+
+#myLink{
+    width: 215px;
+    height: 130px;
+    position: absolute;
+    bottom: 145px;
+    right: 602px;
+}
+
+#theLink{
+   display:block;
+    height: 100%;
+    width: 100%;
+}
+
+#mylink2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+
+#thelink2{
+   display:block;
+    height: 100%;
+    width: 100$;}
+
+#myLink3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 66px;
+    left: 113px;
+}
+
+#thelink3{
+    display: block;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+/*Michael Rosen-CG214-11.1.16*/
+html{
+    background-color: beige;
+    position: absolute;
+    width: 500px;
+}
+
+#school2{
+    width: 700px;
+    color:darkslateblue;
+    font-size: 20px;
+    right: 30px;
+    top: 150px;
+    padding: 2px;
+    background-color: azure;
+    border-color: black;
+    border-width: 8px;
+    border-style: solid}
+#title{
+    color:darkslateblue;
+    font-size: 40px;
+    width: 400px;
+    left: 770px;
+    position: absolute;
+    top:40px;}
+#bullets {
+    color: darkslateblue;   
+    width: 475px;
+    position: absolute;
+    left: 750px;
+    top: 200px;}
+#class {
+    position: absolute;
+    right: 39px;
+    top: 370px;
+}
+
+#video {
+    position: absolute;
+    width: 400px;
+    right: -650px;
+    top: 300px;}

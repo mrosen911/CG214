@@ -1,0 +1,45 @@
+/*Michael Rosen-CG214-11.1.16*/
+html {background-color: beige;} 
+
+#jcc {font-size: 20px;
+    padding: 12px;
+    background-color: navy;
+    color: azure;
+    position:fixed;
+    width: 350px;
+    top: 20px;
+    }
+#theater {
+        font-size: 20;
+        color:darkslateblue;
+        position: fixed;
+        width: 400px;
+        right: 350px;
+    
+}
+
+#camp { 
+    font-size: 20;
+    color: darkslateblue;
+    position:fixed;
+    width: 400px;
+    right: 350px;
+    top: 200px}
+
+#Here {
+    font-size: 20;
+    color: darkslateblue;
+    position: fixed;
+    width: 400px;
+    right: 350px;}
+#picture{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    padding: 12px;
+    background-color: aliceblue;
+    border-color: cadetblue;
+    border-style: outset
+}
