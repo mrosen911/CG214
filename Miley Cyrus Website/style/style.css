@@ -1,0 +1,68 @@
+html {background-image:url(../images/mgid-ao-image-mtv.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+#mileycyrus {
+    position: absolute;
+    float: inherit;
+    left: 45%;
+    top: 40%;}
+
+#myLink{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 47%;}
+
+#theLink{
+   display:block;
+    height: 100%;
+    width: 100%;}
+
+#construction{
+    font-size: 160px;
+    text-align: center;}
+#video{
+    position: absolute;
+    float:none;
+    width: 400px
+    left: 2%;
+    top: 70%;
+    background-color: aliceblue;
+    border: 15px solid transparent; -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+  border-image-slice: 1;}
+
+#rocket {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 40px;
+    top: 3px;}
+#smiley{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 4%;
+    top: 70%;}
+
+#happy{
+    display:block;
+    height: 20%;
+    width: 10%;
+    position: absolute;
+    right: 3%;
+    top: 67%;
+    }
+#music{
+    display:block;
+    height: 20.5%;
+    width: 15%;
+    position: absolute;
+    left: .5%;
+    top: 70%
+}
