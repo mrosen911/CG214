@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+    <head> <link href="../style/home.css" type="text/css" rel="stylesheet"> </head>
+     <div id="home">Home</div>
+    <center> <div id="logo"> MR </div> </center>
+     <div id="bio">Bio </div>
+        <hr>
+
+       <!--Hidden button-->
+        <div id="myLink">
+            <a href="../pages/About%20Me.html" id="theLink"></a>
+        </div>
+    
+    <!--main pictures-->   
+<body id="container">
+<div class="row">
+  <div class="column">
+    <img class="imageDisplay" src="../images/black%20flowers%20copy.jpg" onclick="openModal();currentSlide(1)" "hover-shadow">
+  </div>
+  <div class="column">
+    <img class="imageDisplay" src="../images/honeywort%20copy.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img class="imageDisplay" src="../images/moulin%20rouge%20copy.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img  class="imageDisplay" src="..//images/comic%20copy.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+    
+    <div class="column">
+    <img  class="imageDisplay" src="../images/hot%20air%20copy.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+     
+    <div class="column">
+    <img  class="imageDisplay" src="../images/navy%20donut%20copy.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+    
+     <div class="column">
+    <img  class="imageDisplay" src="..//images/fair%20copy.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+    
+    <div class="column">
+    <img  class="imageDisplay" src="../images/fine%20china%20copy.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+     
+    <div class="column">
+    <img  class="imageDisplay" src="../images/purim%20copy.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+</div>
+<!--start of the zoom-->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+<!pictures feautures in the zoom>
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+        <img src="../images/black%20flowers.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext1">2 / 9</div>
+        <img src="../images/honeywort.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+        <img src="../images/moulin%20rouge.jpg" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+        <img src="../images/comic.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+        <img src="../images/hot%20air.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+        <img src="../images/navy%20donut.jpg" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+        <img src="../images/fair.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+        <img src="../images/fine%20china.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+        <img src="../images/purim.jpg" style="width:100%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!--all of the captions for the photos in zoom-->    
+    <div class="caption-container">
+      <p id="caption">
+     </p>
+   </div>
+
+    <div class="column1">
+      <img class="demo" alt="Hawaiian and Tropical flowers were the inspriation for this piece. Intended for Home Furnishings this piece was painted with Goauche. This design has several flowers tossed in a perfect repeat. ">
+    </div>
+
+    <div class="column1">
+      <img class="demo" alt="Honeyworts, a flower found in Greece, was the inspiration for this piece. The blotch, background, was painted in gouache. The flowers were painted in dye, and details were added in Gouache. Also in a seamless repeat, this design was intended for Home Furnishings.">
+    </div>
+
+    <div class="column1">
+      <img class="demo" alt="Moulin Rouge's infamous Can-Can skirts were the inspiration for this piece. Painted in Gouache, this was a team project and has two coordinating pieces for the collection.">
+    </div>
+
+    <div class="column1">
+      <img class="demo" alt="This Comic Book painting is intended for Childrenswear or accessories and was painted in Dye">
+    </div>
+      
+      <div class="column1">
+      <img class="demo" alt="This Hot Air Balloon painting, done in Dye and Gouache, was made for conversational pajamas. This piece is gender neutral and is a fun way to express your inner child, or just show your apprecation for a colorful form of transportaion.">
+    </div>
+      
+      <div class="column1">
+      <img class="demo" alt="Navy Donuts is another piece intended for conversational pajamas. This Gouache painting is great for the donut and sweets lover. Match with a t-shirt talking about coffee, and you have the perfect outfit.">
+    </div>
+      
+       <div class="column1">
+      <img class="demo" alt="These State Fair plates are for everyday dishware. This collection was painted in Gouache, and features a first prize ribbon and basket with napkin, as your plates, a carnival as the bowl, and a popcorn bucket as the mug.">
+    </div>
+
+    <div class="column1">
+      <img class="demo" alt="This Fine China collection is called Nerve. Done in Dye and a gold pen, these plates are intended to be made out of fine china. Featuring your main plate, salad plate, cup and saucer, and butter dish.">
+    </div>
+      
+      <div class="column1">
+      <img class="demo" alt="These Purim Plates are a fun paper plate collection. Those who do not celebrate Purim, can still obtain these pieces and make a fun Mardi Gras party. Featuring a gift bag, mask, invitation, cup, dinner and salad plate. ">
+    </div>
+  </div>
+    </div>
+    <script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    </body>
+</html>

@@ -1,0 +1,249 @@
+/*The strucure of the pictures*/
+html{
+    background-color: aliceblue
+}
+.row > .column {
+  padding: 3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 32%;
+}
+.hover-shadow {
+  transition: 0.9s
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+/*  background-color: #fefefe;*/
+  margin: auto;
+  padding: 0;
+  width: 30%;
+/*  max-width: 400px;*/
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 200px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+img.demo {
+    opacity: 0.6;
+}
+
+.column1 {
+    opacity: 0;
+    
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.imageDisplay{
+    width: 100%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.img
+.active,
+.demo:hover {
+    opacity: 1;
+}
+/* Home Page menu bar*/
+
+#bio{
+    color: black;
+    float;
+    font-size: 30px;
+    font-family:monospace;    
+}
+
+#home{
+    color: black;
+    float;
+    font-size: 30px;
+    font-family:monospace ; 
+}
+#myLink{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+#theLink{
+   display:block;
+    height: 50%;
+    width: 100%;
+    
+}
+/* Bio Page menu bar*/
+
+.row2 > .column2 {
+  padding: 3px;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 32%;
+}
+
+
+#container2{
+    width: 90%;
+    margin: auto;
+}
+
+#Tabletop {
+    color: black;
+    font-family: monospace;
+    font-weight: 400;
+    width: 500px;
+    font-size: 25;
+}
+
+#bio2{
+    color: black;
+    float;
+    font-size: 30;
+    font-family: monospace;    
+}
+
+#home2{
+    color: black;
+    float;
+    font-size: 30;
+    font-family: monospace;   
+    width: 100px;
+}
+/*invisible box for home screen*/
+#myLink1{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+
+#theLink1{
+   display:block;
+    height: 70%;
+    width: 100%;
+    }
+#logo{
+    font-size: 60px;
+    color: black;
+}
+/*spinner*/
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader {
+ border-top: 16px solid blue;
+ border-bottom: 16px solid blue;
+}
